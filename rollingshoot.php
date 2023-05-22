@@ -10,42 +10,27 @@
         <meta name="keyword" content="Automobile, Orléans, Loiret, Rassemblement">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="responsive_design.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
         rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
         crossorigin="anonymous">
     </head>
+    <body>
 
-    <style> body {background-color: rgb(17, 17, 17);}</style>
+      <?php 
+      require ("php/html_part.php"); 
+      ?>
 
-        <h1>Passion Auto 45</h1>
+        <h1>RollingShot</h1>
 
-        <span class="facebook-link">
-            <a href="https://www.facebook.com/groups/147467578931462" 
-              target="_blank" ><img src="davyPmedia/logo-facebook.png" width="40px"></a>
-        </span>
-
-        <nav>
-            <div class="nav-bar">
-                <ul>
-                    <li class="menu"><a href="index.html">Accueil</li>
-                    <li class="menu"><a href="rasso.html">Rassemblements</li>
-                    <li class="menu"><a href="evenements.html">Événements</li>
-                    <li class="menu"><a href="rollingshoot.html">Rolling Shot</li>
-                    <li class="menu"><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-
-        <h2>RollingShot</h2>
-
-        <div class="description-evenement">
+        <main>
             <p> Le rolling shot a été proposé par notre photographe Davy-p Media afin d’effectuer 
                 une balade sur nos belles routes de Centre Val de Loire. Lors du trajet entre les 
                 différentes étapes, Davy proposera ses services de vidéaste et photographe en 
                 queue de peloton. 
                 Le tarif d’entrée sera défini en fonction des étapes et des animations. 
                 Quelques photos vous seront offertes à la suite de la balade. </p>
-        </div>
+        </main>
   
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -86,7 +71,7 @@
     
         <footer> 
           <span class="copyright">Copyright Photographie @Davy-p.Média</span>
-          <h4>Mentions légales</h4>
+          <h2>Mentions légales</h2>
           <div class="mentions-légales">
           <p>Passion Auto 45 est situé à Chateaudun</br>
              Directeur: Maxime Jannequin</br>

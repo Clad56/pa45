@@ -9,41 +9,26 @@
         <meta name="facebookurl" content="https://www.facebook.com/groups/147467578931462">
         <meta name="keyword" content="Automobile, Orléans, Loiret, Rassemblement">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="responsive_design.css">
         <link rel="stylesheet" href="bootstrap.min.css">
         <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" 
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> -->
     </head>
+    <body>
 
-        <style> body {background-color: rgb(17, 17, 17);}</style>
-
-        <h1>Passion Auto 45</h1>
-       
-        <span class="facebook-link">
-            <a href="https://www.facebook.com/groups/147467578931462" 
-              target="_blank" ><img src="davyPmedia/logo-facebook.png" width="40px"></a>
-        </span>
+        <?php 
+        require ("php/html_part.php"); 
+        ?>
         
-        <nav>
-            <div class="nav-bar">
-                <ul>
-                    <li class="menu"><a href="index.html">Accueil</li>
-                    <li class="menu"><a href="rasso.html">Rassemblements</li>
-                    <li class="menu"><a href="evenements.html">Événements</li>
-                    <li class="menu"><a href="rollingshoot.html">Rolling Shot</li>
-                    <li class="menu"><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-        
-        <h2>Contact</h2>
+        <h1>Contact</h1>
 
-        <div class="description-evenement">
+        <main>
             <p> Si après avoir visité notre site, vous souhaitez prendre contact pour des informations 
                 sur les rassemblements, les événements ou les rolling shots, le formulaire de contact est 
                 à votre disposition. A bientôt</br></p>
 
                 <p>La famille PA45 </p>
-        </div>
+        </main>
 
         <div class="contact-container">
             <div class="contactPA45">
@@ -77,7 +62,7 @@
 
          <footer> 
             <span class="copyright">Copyright Photographie @Davy-p.Média</span>
-            <h4>Mentions légales</h4>
+            <h2>Mentions légales</h2>
             <div class="mentions-légales">
             <p>Passion Auto 45 est situé à Chateaudun</br>
                Directeur: Maxime Jannequin</br>

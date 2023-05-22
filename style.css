@@ -1,4 +1,4 @@
-/*ALL*/
+/*header_section*/
 h1 {
     color: rgb(227, 234, 240);
     width: 100%;
@@ -8,7 +8,7 @@ h1 {
    }
 
 
-.nav-bar {
+nav {
     top: 20%;
     padding-top: 1%;
     width: 100%;
@@ -26,13 +26,7 @@ h1 {
     display: inline-block;
     margin:0 20px; 
 }
-@media screen and (max-width: 900px) {
-    .menu {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
+
 
 a:link { 
  text-decoration:none;
@@ -50,92 +44,44 @@ a:visited {
     right: 10px;
 }
 
-@media screen and (max-width: 500px) and (orientation: portrait) {
-    .facebook-link {
-        top: 1%;
-    }  
-}
-
 
 /* Accueil */
-.intro {
+.main {
     display: flex;
-}
-@media screen and (min-width: 400px) and (max-width: 950px) {
-    .intro {
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-items: center;
-    }
 }
 
 .peugeot206 {
     margin-top: 2%;
     margin-left: 4%;
 }
-@media screen and (min-width: 400px) and (max-width: 950px) {
-    .peugeot206 {
-        margin-left: 5%;
-    }
+
+.container {
+    display: flex;
+    flex-direction: row; 
 }
 
-.we-are {
-    width: 50%;
-    height: 50%;
-    text-align: center;
-    margin: 5%;
-    padding: 1%;
-    border: 1% solid rgb(59, 58, 58);
+.image {
+    color: brown;
 }
-
-@media screen and (min-width: 400px) and (max-width: 950px) {
-    .we-are {
-        width: 95%;
-        height: 85%;
-    }
-}
-
-.article {
-    text-align: center;
-    margin: 5%;
-    }
-
 
 /* ALL */
-.description {
-    height: 10vh;
-    text-align: center;
-    margin: 5%;
-    border: 1% solid rgb(59, 58, 58);;
-} 
 
 p {
     font-size:larger;
     text-align: center;
 }
 
-h2, .we-are, .description, .description-evenement, footer {
+h2, main, section, footer {
     background-color: rgb(25, 25, 26);
     color: rgb(228, 231, 235);
 }
 
-h2, h3 {
-    text-decoration: underline;
-    text-align: center;
-    font-style: italic;  
-    padding: 10px;
-}
 
-.description-evenement {
-    height: 80%;
-    text-align: center;
-    margin: 30px;
-    border: 1% solid rgb(59, 58, 58);;
-}
 
-h4, .mentionsLégales {
+h2, .mentionsLégales {
     font-size: medium;
     text-align: center;
+    font-style: italic;  
 }
 
 .copyright, footer {
@@ -167,13 +113,6 @@ h4, .mentionsLégales {
     padding-left: 5%;
 }
 
-@media screen and (max-width: 1000px) {
-    .contact-container {
-        display: grid;
-        grid-template-columns: 1fr;
-}
-}
-
 .formulaire-contact {
     margin-right: 10%;
     width: auto;
@@ -183,7 +122,8 @@ h4, .mentionsLégales {
 /* BOOTSRAP*/
 
 #carouselExampleFade {
-    width: 75%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
 }
+

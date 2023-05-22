@@ -1,4 +1,8 @@
-// réaliser un site statique 
-// le mettre en ligne sur github 
+   * Implémenter php
+   * Formulaire de contact
+   * Nettoyer code
+   * Main, section, article, aside
 
-// dynamiser avec javascript (formulaire de contact)
+   * Flex ou Grid
+   * Mobile first
+   * Dépôt Git 

@@ -1,0 +1,31 @@
+/* *header_section* */
+
+@media screen and (max-width: 900px) {
+  .menu {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 500px) and (orientation: portrait) {
+  .facebook-link {
+      top: 1%;
+  }  
+}
+
+/* *Accueil* */
+@media screen and (min-width: 400px) and (max-width: 950px) {
+  .peugeot206 {
+      margin-left: 5%;
+  }
+}
+
+/* *Contact* */
+@media screen and (max-width: 1000px) {
+  .contact-container {
+      display: grid;
+      grid-template-columns: 1fr;
+}
+}
+
