@@ -1,5 +1,8 @@
 <header>
-    <style> body {background-color: rgb(17, 17, 17);}</style>
+ 
+<!-- <style> body {background-color: rgb(17, 17, 17);}</style> -->
+<style> body { background: rgb(22,22,23);
+background: linear-gradient(90deg, rgba(22,22,23,1) 0%, rgba(44,41,47,1) 27%, rgba(88,92,101,1) 100%); }</style>
 
 <h1>Passion Auto 45</h1>
 

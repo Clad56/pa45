@@ -32,7 +32,7 @@
                     sécurité de tous.</p>
           </main>
 
-            
+         <div class="size">
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -53,9 +53,6 @@
                   <div class="carousel-item">
                     <img src="davyPmedia/rasso/rassoVts.jpg" class="d-block w-100" alt="Citroën VTS">
                   </div>
-                  <div class="carousel-item">
-                    <img src="davyPmedia/rasso/rassoStaff.jpg" class="d-block w-100" alt="Staff rassemblement">
-                  </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -66,20 +63,11 @@
                     <span class="visually-hidden">Next</span>
                   </button>
             </div>
-        
+        </div>
             
-            <footer> 
-              <span class="copyright">Copyright Photographie @Davy-p.Média</span>
-              <h2>Mentions légales</h2>
-              <div class="mentions-légales">
-              <p>Passion Auto 45 est situé à Chateaudun</br>
-                 Directeur: Maxime Jannequin</br>
-                 Téléphone: 06 06 06 06 06</br>
-                 Toute utilisation, reproduction, diffusion, publication ou retransmission du contenu est 
-                 strictement interdite sans l'autorisation écrite du détenteur des droits d'auteur.
-              </p>
-          </div>
-          </footer>
+<?php 
+include 'php/footer_section.php' ?>
+
 
            <!--Script Bootstrap--> 
            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  

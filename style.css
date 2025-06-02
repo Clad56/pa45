@@ -1,3 +1,4 @@
+
 /*header_section*/
 h1 {
     color: rgb(227, 234, 240);
@@ -9,6 +10,7 @@ h1 {
 
 
 nav {
+    display: flex;
     top: 20%;
     padding-top: 1%;
     width: 100%;
@@ -17,9 +19,9 @@ nav {
     font-size: x-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
-    background-color: rgb(78, 80, 82);
+    background-color:#2d2d41;
     opacity: 0.8;
-    color: rgb(24, 25, 26);
+    color: rgb(202, 205, 208);
 }
 
 .menu {
@@ -46,22 +48,46 @@ a:visited {
 
 
 /* Accueil */
-.main {
+.parent {
+    margin: 5%;
     display: flex;
+    flex-direction: row;
 }
 
 .peugeot206 {
     margin-top: 2%;
-    margin-left: 4%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.intro > p {
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    font-weight: 300;
 }
 
 .container {
-    display: flex;
-    flex-direction: row; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 100px;
 }
 
-.image {
-    color: brown;
+h3 {
+    text-align: center;
+}
+
+section, p {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+.size {
+    width: 80%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* ALL */
@@ -69,13 +95,29 @@ a:visited {
 p {
     font-size:larger;
     text-align: center;
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
 }
 
 h2, main, section, footer {
-    background-color: rgb(25, 25, 26);
-    color: rgb(228, 231, 235);
+    background: #161617;
 }
 
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif,italic;
+    font-weight: 250;
+}
+
+main > p {
+    color: antiquewhite;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 
 
 h2, .mentionsLégales {
@@ -87,6 +129,7 @@ h2, .mentionsLégales {
 .copyright, footer {
     text-align: center;
     margin: 20px;
+    color: antiquewhite;
 }
 
 /*contact*/

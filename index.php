@@ -20,12 +20,13 @@
             require ("php/html_part.php"); 
         ?>
 
+        <h1>Qui sommes nous ?</h1> 
+        <main>
+            <div class="parent">
             <div class="peugeot206"> <img src="davyPmedia/206 s16.jpg"
                 width= "95%" alt="Peugeot 206 s16">
             </div>
-           
-            <main>
-               <h1>Qui sommes nous ?</h1> 
+           <div class ="intro">
                   <p>Issue à l’origine d’un groupe Facebook, l‘ association Passion Auto 45 a été créée 
                      afin de réunir les passionné(es)s sur des événements et rassemblements. Propriétaire de 
                      véhicules sportifs, atypiques, customisés, préparés ou bien même visiteur, soyez le 
@@ -35,7 +36,9 @@
                      Un groupe Facebook de ventes dans le domaine automobile est disponible ( ventes de véhicules entre particulier, 
                      équipement , service).
                      Alors si vous souhaitez nous contacter,</br> <a href="contact.php">cliquez ici</a></p>
-            </main>
+           </div>
+        </div>
+        </main>
         
 
             <div class="container">
@@ -76,18 +79,9 @@
                         </p> 
                 </section>
             </div>
-                
-                <footer> 
-                    <span class="copyright">Copyright Photographie @Davy-p.Média</span>
-                    <h2>Mentions légales</h2>
-                    <div class="mentionsLégales">
-                    <p>Passion Auto 45 est situé à Chateaudun</br>
-                       Directeur: Maxime Jannequin</br>
-                       Téléphone: 06 06 06 06 06</br>
-                       Toute utilisation, reproduction, diffusion, publication ou retransmission du contenu est 
-                       strictement interdite sans l'autorisation écrite du détenteur des droits d'auteur.
-                    </p>
-                </div>
-                </footer>
+            <?php 
+            require ("php/html_footer.php"); 
+        ?>
+
     </body>
 </html>

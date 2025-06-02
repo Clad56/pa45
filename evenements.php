@@ -35,16 +35,10 @@
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="davyPmedia/driftShoot/driftAF.jpg" class="d-block w-100" alt="Nissan s13">
-              </div>
-              <div class="carousel-item">
                 <img src="davyPmedia/driftShoot/driftBmw.jpg" class="d-block w-100" alt="Drift Bmw">
               </div>
               <div class="carousel-item">
                 <img src="davyPmedia/driftShoot/driftGarage.jpg" class="d-block w-100" alt="Stand">
-              </div>
-              <div class="carousel-item">
-                <img src="davyPmedia/driftShoot/driftPSR.jpg" class="d-block w-100" alt="Bmw PSR">
               </div>
               <div class="carousel-item">
                 <img src="davyPmedia/driftShoot/driftS13.jpg" class="d-block w-100" alt="Drift s13">
@@ -54,9 +48,6 @@
               </div>
               <div class="carousel-item">
                 <img src="davyPmedia/driftShoot/driftStandBmw.jpg" class="d-block w-100" alt="Stand Bmw">
-              </div>
-              <div class="carousel-item">
-                <img src="davyPmedia/driftShoot/driftStandSilvia.jpg" class="d-block w-100" alt="Silvia">
               </div>
               <div class="carousel-item">
                 <img src="davyPmedia/driftShoot/driftSupra.jpg" class="d-block w-100" alt="Supra">
@@ -72,18 +63,10 @@
               </button>
         </div>
     
-        <footer> 
-          <span class="copyright">Copyright Photographie @Davy-p.Média</span>
-          <h2>Mentions légales</h2>
-          <div class="mentions-légales">
-          <p>Passion Auto 45 est situé à Chateaudun</br>
-             Directeur: Maxime Jannequin</br>
-             Téléphone: 06 06 06 06 06</br>
-             Toute utilisation, reproduction, diffusion, publication ou retransmission du contenu est 
-             strictement interdite sans l'autorisation écrite du détenteur des droits d'auteur.
-          </p>
-      </div>
-      </footer>
+<?php 
+
+include 'php/footer_section.php' ?>
+
 
        <!--Script Bootstrap--> 
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
