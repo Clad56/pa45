@@ -44,8 +44,8 @@
             <div class="container">
                 
                 <section>
+                <h3><a href="rasso.php">Rassemblements</h3>
                 <div class="image">
-                    <h3><a href="rasso.php">Rassemblements</h3>
                         <img src="davyPmedia/rasso/rassoSubaru.jpg" 
                         width="300vw" alt="Subaru"></a>
                 </div>
@@ -57,8 +57,8 @@
                 </section>
 
                 <section>
-                    <div class="image">
                     <h3><a href="evenements.php">Événements</h3>
+                    <div class="image">
                         <img src="davyPmedia/driftShoot/driftStandBmw.jpg" 
                         width="300vw" alt="Stand"></a>
                     </div>
@@ -68,8 +68,8 @@
                 </section>
 
                 <section>
+                    <h3><a href="rollingshoot.php">Rolling Shot</h3>
                     <div class="image">
-                        <h3><a href="rollingshoot.php">Rolling Shot</h3>
                         <img src="davyPmedia/rollingShoot/rollingShootCocc.jpg"
                         width="300vw" alt="2 coccinelles"></a>
                     </div>   

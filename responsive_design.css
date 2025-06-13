@@ -1,31 +1,78 @@
 /* *header_section* */
 
+/* Accueil / Index.php */
+@media  screen and (max-width: 900px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 @media screen and (max-width: 900px) {
-  .menu {
+  .parent {
       display: block;
       margin-left: auto;
       margin-right: auto;
   }
 }
 
-@media screen and (max-width: 500px) and (orientation: portrait) {
-  .facebook-link {
-      top: 1%;
-  }  
-}
-
-/* *Accueil* */
-@media screen and (min-width: 400px) and (max-width: 950px) {
-  .peugeot206 {
-      margin-left: 5%;
+@media screen and (max-width: 900px) {
+   .intro > p, section > p {
+      font-weight: 500;
+      font-size: x-large;
   }
 }
 
-/* *Contact* */
+@media screen and (max-width: 900px) {
+    section > h3 {
+      font-weight: 700;
+      font-size: xx-large;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+  .container {
+      display: flex;
+      flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .image {
+    align-items: center;
+    margin: auto;
+  }
+}
+  
+
+@media screen and (max-width: 1200px) {
+  .image {
+    display: flex;
+     flex-direction: column;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+/* @media screen and (max-width: 500px) and (orientation: portrait) {
+  .facebook-link {
+      top: 1%;
+  }   */
+
+
+/* *Formulaire contact / contact.php* */
 @media screen and (max-width: 1000px) {
   .contact-container {
-      display: grid;
-      grid-template-columns: 1fr;
+      display: flex;
+      flex-direction: column;
+      -ms-flex-align: center;
 }
+}
+
+@media screeen and (max-width : 1000px) {
+  .formulaire-contact {
+    width: 900px;
+  }
 }
 

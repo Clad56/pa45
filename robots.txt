@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Allow: /
+
+Sitemap: https://passion-auto45-06f93fe3cd70.herokuapp.com//sitemap.xml
