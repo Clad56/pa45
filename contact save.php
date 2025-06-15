@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="fr">
     <head>
         <meta charset="utf-8"/>
@@ -10,6 +10,7 @@
         <meta name="keyword" content="Automobile, Orléans, Loiret, Rassemblement">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="responsive_design.css">
+        <link rel="stylesheet" href="bootstrap.min.css">
         <script src="script.js" defer></script> 
         <script src="script-destination.js" defer></script> 
         <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" 
@@ -31,33 +32,33 @@
                 <p>La famille PA45 </p>
         </main>
 
-    <!-- <div class="formulaire-contact">
-         <div class="logo-pa45"> <img src="davyPmedia/logopa45.jpg" width="50px" alt="logo pa45"></div> -->
-
         <div class="contact-container">
-            <form action="" method="post">
-
-                <div>
-                    <label for="name">Votre nom</label>
-                    <input type="text" id="name" placeholder="Nom" name="name" required>
-                </div>
-
-                <div>
-                    <label for="email">Votre e-mail</label>
-                    <input type="email" id="email" placeholder="Email" name="email" required>
-                </div>
-                
-                <div>
-                    <label for="message">Votre Message</label>
-                    <textarea id="message" name="message" placeholder="Message" maxlength="300" rows="6" cols="24" required>
-                    </textarea>
-                </div>
-
-                <button type="bouton">Envoyez</button>
-                <!-- <button type="button" class="btn btn-primary"> -->
-            </form>
+            <div class="contactPA45">
+                <img src="davyPmedia/logopa45.jpg" width="80%" alt="logo passion auto 45">
+            </div>
+        <div class="formulaire-contact ">
+            <div class="row">
+                <form action="" method="post">
+                    <div class="col-lg-8 col-md-9 col-sm-10">
+                        <label for="name">Votre nom</label>
+                        <input type="text" id="name" placeholder="Nom" name="name" required>
+                    </div>
+                    <div class="col-lg-8 col-md-9 col-sm-10">
+                        <label for="email">Votre e-mail</label>
+                        <input type="email" id="email" placeholder="Email" name="email" required>
+                    </div>
+                    <div class="col-lg-8 col-md-9 col-sm-10">
+                        <label for="message">Votre Message</label>
+                        <textarea id="message" name="message" placeholder="Message" maxlength="300" rows="6" cols="24" required>
+                        </textarea>
+                    </div>
+                    <button type="bouton">button</button>
+                        <button type="button" class="btn btn-primary">
+                    </div>
+                </form>
+            </div>
         </div>
-    <!-- </div> -->
+    </div>
 
         <!-- ATTENTION !!!!!! TRAVAILLER LE FORMULAIRE EN PHP  -->
 <?php
@@ -85,4 +86,35 @@ include 'php/footer_section.php' ?>
         
       </body>
 </html>
-    
+     -->
+
+
+     <!-- style.css -->
+      <!-- .contact-container {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+    justify-content: center;
+    color: aliceblue;
+    padding-top: 2%;
+}
+
+#name, #email, #message {
+    width: 200%;  
+}
+
+.col-6 {
+    padding-top: 5%;
+}
+
+.button {
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.formulaire-contact {
+    margin-right: 10%;
+    width: auto;
+}
+ -->
+

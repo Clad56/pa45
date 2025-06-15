@@ -8,11 +8,20 @@
 * css de base // ok !
 * ajouter photo /vidéo // ok !
 * formulaire contact html // ok !
-* diapo bootsrap // ok !
+* diapo bootsrap // ok ! 
+* flexbox index.php ok !
+* referencement ok !
+* mise en ligne ok !
 
-* ajouter de nouvelles photos / vidéos
-* flexbox et grid
-* responsive design // menu déroulant pour mobile 
+* flexbox contact.php
+* formulaire contact 
+* ajouter de nouvelles photos / vidéos ok !
+* responsive design // menu déroulant pour mobile
+* formulaire contact sans bootsrap
+* slider 
+* gestion des cookies
+* installer Synfony
+* mobile first
 
 
 
@@ -21,7 +30,6 @@
 * ajouter footer php // ok !
 * formualire contact php 
 * je ne suis pas un robot 
-* implanter Synfony
 
 
 

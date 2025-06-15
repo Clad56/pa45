@@ -73,7 +73,6 @@ a:visited {
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* grid-gap: 50px; */
 }
 
 h3 {
@@ -95,7 +94,7 @@ section, p, .image {
 
 /* ALL */
 
-p {
+p, label {
     font-size:larger;
     text-align: center;
     color: antiquewhite;
@@ -137,33 +136,38 @@ h2, .mentionsLégales {
 
 /*contact*/
 
-.contact-container {
-    display: flex;
-    margin-top: 5%;
-    margin-left: 5%;
-    justify-content: center;
-    color: aliceblue;
-    padding-top: 2%;
-}
-
-#name, #email, #message {
-    width: 200%;  
-}
-
-.col-6 {
-    padding-top: 5%;
-}
-
-.button {
-    padding-top: 5%;
-    padding-left: 5%;
+/* .logo-pa45 {
+    position: absolute;
+    margin-left: 5px;
 }
 
 .formulaire-contact {
-    margin-right: 10%;
-    width: auto;
+      background-color: lightgray;
+      padding: 15% 15%;
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+} */
+
+.contact-container {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 80%; */
 }
 
+.contact-container form input {
+    width: 130%;
+}
+
+.contact-container form textarea {
+    width: 130%;
+}
+
+button {
+    width : 200px;
+}
 
 /* BOOTSRAP*/
 
