@@ -21,7 +21,7 @@
       require ("php/html_part.php"); 
       ?>
         
-    <h1>Événements</h1>
+    <h2>Événements</h2>
 
         <main>  
             <p> La vie de passionné passe également par de grands événements. Nous vous proposerons 

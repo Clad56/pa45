@@ -21,7 +21,7 @@
             require ("php/html_part.php"); 
         ?>
         
-        <h1>Rassemblements</h1>
+        <h2>Rassemblements</h2>
 
             <main>
                 <p> Propriétaire de véhicules sportifs, atypiques, customisés, préparés ou bien même visiteur, 

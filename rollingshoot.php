@@ -21,7 +21,7 @@
       require ("php/html_part.php"); 
       ?>
 
-        <h1>RollingShot</h1>
+        <h2>RollingShot</h2>
 
         <main>
             <p> Le rolling shot a été proposé par notre photographe Davy-p Media afin d’effectuer 

@@ -8,7 +8,40 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
+  #peugeot206 img {
+    height: 250px; /* Moins haut sur petits écrans */
+    width: 100%;   /* Plus simple et plein écran */
+  }
+}
+
+@media  screen and (max-width: 900px) {
+  h1, h2, h3, p {
+    font-size: x-large;
+    font-style: oblique;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #container, .image{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  #container section .image {
+     width: 100%;         
+     height: auto;         
+     max-width: 900px;     
+     display: block;       
+     margin: 0 auto;       
+     object-fit: cover;
+  }
+}
+
+
+/* @media screen and (max-width: 900px) {
   .parent {
       display: block;
       margin-left: auto;
@@ -57,7 +90,7 @@
       margin-left: auto;
       margin-right: auto;
   }
-}
+} */
 
 /* @media screen and (max-width: 500px) and (orientation: portrait) {
   .facebook-link {

@@ -1,6 +1,6 @@
 <footer> 
     <span class="copyright">Copyright Photographie @Davy-p.Média</span>
-        <h2>Mentions légales</h2>
+        <h4>Mentions légales</h4>
             <div class="mentionsLégales">
                 <p>Passion Auto 45 est situé à Chateaudun</br>
                     Directeur: Maxime Jannequin</br>

@@ -38,13 +38,13 @@
             <form action="" method="post">
 
                 <div>
-                    <label for="name">Votre nom</label>
-                    <input type="text" id="name" placeholder="Nom" name="name" required>
+                    <label for="name">Votre nom</label required>
+                    <input type="text" id="name" placeholder="Nom" name="name" >
                 </div>
 
                 <div>
-                    <label for="email">Votre e-mail</label>
-                    <input type="email" id="email" placeholder="Email" name="email" required>
+                    <label for="email">Votre e-mail</label required>
+                    <input type="email" id="email" placeholder="Email" name="email" >
                 </div>
                 
                 <div>
@@ -53,7 +53,7 @@
                     </textarea>
                 </div>
 
-                <button type="bouton">Envoyez</button>
+                <button type="button" id="bouton1">Envoyez</button>
                 <!-- <button type="button" class="btn btn-primary"> -->
             </form>
         </div>
@@ -62,22 +62,22 @@
         <!-- ATTENTION !!!!!! TRAVAILLER LE FORMULAIRE EN PHP  -->
 <?php
 // Vérifie si les champs ont été soumis
-if (isset($_POST['name']) && isset($_POST['email']) && isset ($_POST ['message'])) 
-{ 
-  $name = $_POST['name'];
-  $email = $_POST['email'];
-  $message = $_POST ['message'];
-       // exemple de validation
-  if (empty($name) && empty($email) && empty ($message))
-	{
-      echo "Veuillez entrer votre nom, email et message";
-	} 
-	else 
-	{
-		echo "Votre message a  bien été envoyé. Nous revenons vers vous vers très rapidement";	   
-	}
-}
-?> 
+// if (isset($_POST['name']) && isset($_POST['email']) && isset ($_POST ['message'])) 
+// { 
+//   $name = $_POST['name'];
+//   $email = $_POST['email'];
+//   $message = $_POST ['message'];
+//        // exemple de validation
+//   if (empty($name) && empty($email) && empty ($message))
+// 	{
+//       echo "Veuillez entrer votre nom, email et message";
+// 	} 
+// 	else 
+// 	{
+// 		echo "Votre message a  bien été envoyé. Nous revenons vers vous vers très rapidement";	   
+// 	}
+// }
+// ?> 
 
 <?php 
 include 'php/footer_section.php' ?>

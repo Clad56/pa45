@@ -1,14 +1,13 @@
-/* body {
-    display: flex;
-} */
-
-/*header_section*/
+body {
+    background-color: white;
+    background : linear-gradient(90deg, rgb(216, 216, 233) 0%, rgb(228, 224, 231) 27%, rgb(207, 220, 252) 100%);
+}
 h1 {
-    color: rgb(227, 234, 240);
+    color: rgb(4, 45, 82);
     width: 100%;
-    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:oblique;
     text-align: center;   
-    text-decoration: underline;
    }
 
 
@@ -20,14 +19,13 @@ nav {
     display: inline-block;
     text-align:center;
     font-size: x-large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
-    background-color:#2d2d41;
     opacity: 0.8;
-    color: rgb(202, 205, 208);
+    background : linear-gradient(90deg, rgb(129, 128, 131) 0%, rgb(234, 233, 238) 27%, rgb(207, 220, 252) 100%);
 }
 
-.menu {
+ul li {
     display: inline-block;
     margin:0 20px; 
 }
@@ -35,11 +33,11 @@ nav {
 
 a:link { 
  text-decoration:none;
- color: rgb(189, 181, 181);
+ color: rgb(10, 10, 10);
 } 
 
 a:visited {
-    color: rgb(252, 249, 249);
+    color: rgb(66, 65, 65);
 }
 
 
@@ -49,48 +47,76 @@ a:visited {
     right: 10px;
 }
 
+/* ---------------------------------------------------------------------------------------------- */
+
 
 /* Accueil */
-.parent {
-    margin: 5%;
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    background-color: aliceblue;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; /* espace entre les blocs */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: rgb(237, 238, 238) 2px solid;
+}
+
+.image {
+  display: flex;
+  justify-content: center;   
+  align-items: center;
+  gap: 20px;                 
+}
+
+
+#parent {
+    margin-top: 20px;
+    border: rgb(237, 238, 238) 2px solid;
+    padding: 10px 0;
+}
+
+#intro {
+    margin-top: 50px;
+}
+
+h2 {
+    background-color: aliceblue;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+}
+
+#container {
     display: flex;
     flex-direction: row;
+    margin-top: 10%;
+    justify-items: auto;
 }
 
-.peugeot206 {
-    margin-top: 2%;
-    margin-left: 2%;
-    margin-bottom: 2%;
-}
-
-.intro > p {
-    margin-top: 2%;
-    font-family: Arial, Helvetica, sans-serif;
-    vertical-align: middle;
-    font-weight: 300;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-h3 {
+h3, .image {
     text-align: center;
+    margin-left: 5px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
 }
 
-section, p, .image {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 15px;
-}
+#container section h3 a:visited { 
+ text-decoration:none;
+ color: rgb(180, 197, 211);
+} 
 
-.size {
-    width: 80%;
-    height: 60%;
-    margin-left: auto;
-    margin-right: auto;
-}
+#container section h3 a:visited { 
+ text-decoration:none;
+ color: rgb(211, 210, 210);
+} 
+
+
+/* ------------------------------------------------------------------------------------------------- */
 
 /* ALL */
 
@@ -98,19 +124,21 @@ p, label {
     font-size:larger;
     text-align: center;
     color: antiquewhite;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
     font-weight: 300;
 }
 
-h2, main, section, footer {
-    background: #161617;
+main, section, footer {
+    background: rgb(65, 65, 88);
 }
 
 footer {
-    padding-top: 20px;
-    padding-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif,italic;
     font-weight: 250;
+    width: 95%;
+    border: rgb(237, 238, 238) 3px solid;
+    padding: 10px;
 }
 
 main > p {
@@ -134,6 +162,12 @@ h2, .mentionsLégales {
     color: antiquewhite;
 }
 
+
+
+
+
+/* ---------------------------------------------------------------------------------------------- */
+
 /*contact*/
 
 /* .logo-pa45 {
@@ -150,7 +184,7 @@ h2, .mentionsLégales {
 } */
 
 .contact-container {
-    margin-right: 50px;
+    /* margin-right: 50px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -168,12 +202,3 @@ h2, .mentionsLégales {
 button {
     width : 200px;
 }
-
-/* BOOTSRAP*/
-
-#carouselExampleFade {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-}
-

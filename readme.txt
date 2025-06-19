@@ -13,6 +13,8 @@
 * referencement ok !
 * mise en ligne ok !
 
+
+* diaporama photo accueil
 * flexbox contact.php
 * formulaire contact 
 * ajouter de nouvelles photos / vidéos ok !

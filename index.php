@@ -20,13 +20,16 @@
             require ("php/html_part.php"); 
         ?>
 
-        <h1>Qui sommes nous ?</h1> 
+        <h2>Qui sommes nous ?</h2> 
+        
         <main>
-            <div class="parent">
-            <div class="peugeot206"> <img src="davyPmedia/206 s16.jpg"
-                width= "95%" alt="Peugeot 206 s16">
+             <div class="image">
+                    <div id="logoAsso"> <img src="davyPmedia/logo2pa45.jpg" width="75%"alt="logo de l'asso pa45"></div>
+                    <div id="mano"> <img src="davyPmedia/mano.jpg" width="90%"  alt="mano"></div>
             </div>
-           <div class ="intro">
+
+            <div id="parent">
+                <div id="intro">
                   <p>Issue à l’origine d’un groupe Facebook, l‘ association Passion Auto 45 a été créée 
                      afin de réunir les passionné(es)s sur des événements et rassemblements. Propriétaire de 
                      véhicules sportifs, atypiques, customisés, préparés ou bien même visiteur, soyez le 
@@ -35,14 +38,12 @@
                      balades, sorties circuits et sorties découvertes mécanique.
                      Un groupe Facebook de ventes dans le domaine automobile est disponible ( ventes de véhicules entre particulier, 
                      équipement , service).
-                     Alors si vous souhaitez nous contacter,</br> <a href="contact.php">cliquez ici</a></p>
-           </div>
-        </div>
-        </main>
-        
+                     Alors si vous souhaitez nous contacter,</br> 
+                     <a href="contact.php">cliquez ici</a></p>
+                </div>
+            </div>
 
-            <div class="container">
-                
+            <div id="container">
                 <section>
                 <h3><a href="rasso.php">Rassemblements</h3>
                 <div class="image">
@@ -79,6 +80,8 @@
                         </p> 
                 </section>
             </div>
+
+         </main>
             <?php 
             require ("php/html_footer.php"); 
         ?>

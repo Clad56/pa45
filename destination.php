@@ -22,9 +22,9 @@
         require ("php/html_part.php"); 
     ?>
         
-       <h1>destination</h1>
+       <h1>Message envoyé</h1>
        <p>Votre message a bien été envoyé</p>
-        <button type="button2">revenir à l'accueil</button>
+        <!-- <button id="bouton2">revenir à l'accueil</button> -->
 
     <?php 
         include 'php/footer_section.php' 

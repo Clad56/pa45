@@ -1,5 +1,5 @@
-const bouton=window.document.getElementById('bouton');
+const openButton = document.getElementById('bouton1');
 
-button.addEventListener('click', () => {
-    const destination = window.open('./destination.php', 'destination', 'width=800, height=400') 
-})
+openButton.addEventListener('click', () => {
+  window.location.href = '/destination.php';
+});
