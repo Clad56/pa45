@@ -11,6 +11,9 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="responsive_design.css">
         <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="slider.css">
+        <script src="slider.js"></script>
+        
         <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" 
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> -->
     </head>
@@ -19,14 +22,13 @@
         <?php 
             require ("php/html_part.php"); 
         ?>
-
-        <h2>Qui sommes nous ?</h2> 
         
         <main>
-             <div class="image">
-                    <div id="logoAsso"> <img src="davyPmedia/logo2pa45.jpg" width="75%"alt="logo de l'asso pa45"></div>
-                    <div id="mano"> <img src="davyPmedia/mano.jpg" width="90%"  alt="mano"></div>
-            </div>
+            <div id="slider"><img src="davyPmedia/rasso1.jpg" alt="montagne" id="slide"></div>
+            <div id="precedent" onclick="ChangeSlide(-1)">&lt;</div>
+            <div id="suivant" onclick="ChangeSlide(1)">&gt;</div>
+
+             <h2 id="presentation">Qui sommes nous ?</h2> 
 
             <div id="parent">
                 <div id="intro">
