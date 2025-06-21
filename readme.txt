@@ -12,15 +12,12 @@
 * flexbox index.php ok !
 * referencement ok !
 * mise en ligne ok !
+* slider accuiel js ok !
+* bootsrap caroussel ok !
 
-
-* diaporama photo accueil
+* slider accueil responsive
+* formulaire contact js
 * flexbox contact.php
-* formulaire contact 
-* ajouter de nouvelles photos / vidéos ok !
-* responsive design // menu déroulant pour mobile
-* formulaire contact sans bootsrap
-* slider 
 * gestion des cookies
 * installer Synfony
 * mobile first

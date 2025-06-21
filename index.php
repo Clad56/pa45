@@ -10,7 +10,7 @@
         <meta name="keyword" content="Automobile, Orléans, Loiret, Rassemblement">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="responsive_design.css">
-        <!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
+        <link rel="stylesheet" href="bootstrap.min.css">
         <link rel="stylesheet" href="slider.css">
         <script src="slider.js"></script>
         
