@@ -176,6 +176,15 @@ h2, .mentionsLégales {
     color: antiquewhite;
 }
 
+/* ---------------------------------------------------------------------------------------------- */
+
+/* caroussel bootsrap */
+
+.size  {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 

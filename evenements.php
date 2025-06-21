@@ -30,7 +30,7 @@
                 que des convois en direction de rassemblements et de championnats reconnus( clio cup, 
                 GT2, mitjet, ect...) </p>
 
-
+      <div class="size">
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -61,8 +61,8 @@
                 <span class="visually-hidden">Next</span>
               </button>
         </div>
+      </div>
      </main>
-    
 <?php 
 
 include 'php/footer_section.php' ?>
