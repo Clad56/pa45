@@ -10,7 +10,7 @@
         <meta name="keyword" content="Automobile, Orléans, Loiret, Rassemblement">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="responsive_design.css">
-        <link rel="stylesheet" href="bootstrap.min.css">
+        <!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
         <link rel="stylesheet" href="slider.css">
         <script src="slider.js"></script>
         
@@ -24,10 +24,12 @@
         ?>
         
         <main>
-            <div id="slider"><img src="davyPmedia/rasso1.jpg" alt="montagne" id="slide"></div>
-            <div id="precedent" onclick="ChangeSlide(-1)">&lt;</div>
-            <div id="suivant" onclick="ChangeSlide(1)">&gt;</div>
-
+            <div id="class-container">
+                <div id="slider"><img src="davyPmedia/rasso1.jpg" alt="image rasso" id="slide"></div>
+                <div id="precedent" onclick="ChangeSlide(-1)">&lt;</div>
+                <div id="suivant" onclick="ChangeSlide(1)">&gt;</div>
+            </div>
+            
              <h2 id="presentation">Qui sommes nous ?</h2> 
 
             <div id="parent">

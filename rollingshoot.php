@@ -30,7 +30,6 @@
                 queue de peloton. 
                 Le tarif d’entrée sera défini en fonction des étapes et des animations. 
                 Quelques photos vous seront offertes à la suite de la balade. </p>
-        </main>
   
       <div class="size">
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -70,6 +69,7 @@
               </button>
         </div>
       </div>
+    </main>
     
 <?php 
 

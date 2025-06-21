@@ -29,7 +29,6 @@
                 mondial de l’automobile,ect…). Quelques journées circuit seront réalisées ainsi 
                 que des convois en direction de rassemblements et de championnats reconnus( clio cup, 
                 GT2, mitjet, ect...) </p>
-        </main>
 
 
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -62,6 +61,7 @@
                 <span class="visually-hidden">Next</span>
               </button>
         </div>
+     </main>
     
 <?php 
 

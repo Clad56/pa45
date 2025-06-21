@@ -8,14 +8,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  #peugeot206 img {
-    height: 250px; /* Moins haut sur petits écrans */
-    width: 100%;   /* Plus simple et plein écran */
-  }
-}
-
-@media  screen and (max-width: 900px) {
+@media  screen and (max-width: 1200px) {
   h1, h2, h3, p {
     font-size: x-large;
     font-style: oblique;
@@ -30,9 +23,9 @@
 }
 
 @media screen and (max-width: 1200px){
-  #container section .image {
+  #container section img {
      width: 100%;         
-     height: auto;         
+     height: auto;          
      max-width: 900px;     
      display: block;       
      margin: 0 auto;       
@@ -40,62 +33,20 @@
   }
 }
 
+/* slider accueil */
 
-/* @media screen and (max-width: 900px) {
-  .parent {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-  }
-}
+/* -------------------------------------------------------------------------------------- */
 
 
 
-@media screen and (max-width: 900px) {
-   .intro > p, section > p {
-      font-weight: 500;
-      font-size: x-large;
-      text-align: justify;
-  }
-}
 
-@media screen and (max-width: 900px) {
-    section > h3 {
-      font-weight: 700;
-      font-size: xx-large;
-    }
-}
-
+/* ------------------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 1200px) {
-  .container {
-      display: flex;
-      flex-direction: column;
+  #slider img {
+    width: 100%;
   }
 }
-
-@media screen and (max-width: 1200px) {
-  .image {
-    align-items: center;
-    margin: auto;
-  }
-}
-  
-
-@media screen and (max-width: 1200px) {
-  .image {
-    display: flex;
-     flex-direction: column;
-      margin-left: auto;
-      margin-right: auto;
-  }
-} */
-
-/* @media screen and (max-width: 500px) and (orientation: portrait) {
-  .facebook-link {
-      top: 1%;
-  }   */
 
 
 /* *Formulaire contact / contact.php* */

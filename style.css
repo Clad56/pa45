@@ -1,6 +1,7 @@
 body {
     background-color: white;
     background : linear-gradient(90deg, rgb(216, 216, 233) 0%, rgb(228, 224, 231) 27%, rgb(207, 220, 252) 100%);
+    
 }
 h1 {
     color: rgb(4, 45, 82);
@@ -58,6 +59,10 @@ a:visited {
     margin-top: 20px;
     background: rgb(65, 65, 88);
     color: aliceblue;
+}
+
+section p {
+    margin-top: 10px;
 }
 
 main {
