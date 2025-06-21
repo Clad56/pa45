@@ -32,7 +32,6 @@
             
              <h2 id="presentation">Qui sommes nous ?</h2> 
 
-            <div id="parent">
                 <div id="intro">
                   <p>Issue à l’origine d’un groupe Facebook, l‘ association Passion Auto 45 a été créée 
                      afin de réunir les passionné(es)s sur des événements et rassemblements. Propriétaire de 
@@ -45,7 +44,7 @@
                      Alors si vous souhaitez nous contacter,</br> 
                      <a href="contact.php">cliquez ici</a></p>
                 </div>
-            </div>
+                
 
             <div id="container">
                 <section>

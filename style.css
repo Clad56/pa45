@@ -86,15 +86,11 @@ main {
 }
 
 
-#parent {
-    margin-top: 20px;
+#intro {
+    margin-top: 50px;
     border: rgb(237, 238, 238) 2px solid;
     padding: 10px 0;
 
-}
-
-#intro {
-    margin-top: 50px;
 }
 
 h2 {
@@ -107,7 +103,7 @@ h2 {
 #container {
     display: flex;
     flex-direction: row;
-    margin-top: 10%;
+    margin-top: 5%;
     justify-items: auto;
 }
 
