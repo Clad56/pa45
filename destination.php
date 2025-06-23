@@ -21,10 +21,17 @@
     <?php 
         require ("php/html_part.php"); 
     ?>
-        
-       <h1>Message envoyé</h1>
-       <p>Votre message a bien été envoyé</p>
+
+    <main>       
+       <h2>Message envoyé !!! </h2>
+       <p>Votre message a bien été envoyé :D 
+        Nous reviendrons vers vous très vite prochainement
+       </p>
         <!-- <button id="bouton2">revenir à l'accueil</button> -->
+        
+       <button id="retour-accueil" onclick="window.location.href='index.php'">Retour à l'accueil</button>
+
+    </main>
 
     <?php 
         include 'php/footer_section.php' 

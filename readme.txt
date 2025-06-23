@@ -12,12 +12,14 @@
 * flexbox index.php ok !
 * referencement ok !
 * mise en ligne ok !
-* slider accuiel js ok !
+* slider accueil js ok !
 * bootsrap caroussel ok !
+* slider accueil responsive ok !
+* formulaire contact html & css !
 
-* slider accueil responsive
+* formulaire contact responsive
+* je ne suis pas un robot
 * formulaire contact js
-* flexbox contact.php
 * gestion des cookies
 * installer Synfony
 * mobile first
