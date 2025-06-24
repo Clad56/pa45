@@ -12,7 +12,6 @@
         <link rel="stylesheet" href="responsive_design.css">
         <link rel="stylesheet" href="bootstrap.min.css">
         <script src="script.js" defer></script> 
-        <script src="script-destination.js" defer></script> 
        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" 
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     </head>
@@ -42,35 +41,4 @@ include 'php/footer_section.php' ?>
         
       </body>
 </html>
-     -->
-
-
-     <!-- style.css -->
-      <!-- .contact-container {
-    display: flex;
-    margin-top: 5%;
-    margin-left: 5%;
-    justify-content: center;
-    color: aliceblue;
-    padding-top: 2%;
-}
-
-#name, #email, #message {
-    width: 200%;  
-}
-
-.col-6 {
-    padding-top: 5%;
-}
-
-.button {
-    padding-top: 5%;
-    padding-left: 5%;
-}
-
-.formulaire-contact {
-    margin-right: 10%;
-    width: auto;
-}
- -->
-
+    

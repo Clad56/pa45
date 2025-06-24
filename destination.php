@@ -12,7 +12,6 @@
         <link rel="stylesheet" href="responsive_design.css">
         <link rel="stylesheet" href="bootstrap.min.css">
         <script src="script.js" defer></script> 
-        <script src="script-destination.js" defer></script> 
         <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" 
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> -->
     </head>
@@ -27,7 +26,6 @@
        <p>Votre message a bien été envoyé :D 
         Nous reviendrons vers vous très vite prochainement
        </p>
-        <!-- <button id="bouton2">revenir à l'accueil</button> -->
         
        <button id="retour-accueil" onclick="window.location.href='index.php'">Retour à l'accueil</button>
 

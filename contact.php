@@ -30,7 +30,7 @@
                 sur les rassemblements, les événements ou les rolling shots, le formulaire de contact est 
                 à votre disposition. A bientôt</br> La famille PA45
 
-            <form id="formulaire">
+            <form id="formulaire" action="/destination.php" method="post">
                 <fieldset id="infos">
                     <legend><h2>Informations</h2></legend>
 
@@ -41,6 +41,10 @@
                         <div id="div_fnm">
                             <label for="firstname">Prenom :</label><input type="text" name="prenom" id="firstname" placeholder="Votre prénom ..." required>
                         </div>
+
+                         <div>
+                <label for="email">Email :</label><input type="email" id="email" name="email" placeholder="email@mail.com" required>
+                        </div>
                 </fieldset>
 
                 <fieldset id="messages">
@@ -48,29 +52,25 @@
 
                 <div>
                     <label for="objet">Objet du message:</label>
-                    <select type="text" name="objet" id="objet" required>
+                    <select type="text" name="objet" id="objet">
                         <option value="renseignement_rassemblement" selected>Renseignement rassemblement</option>
                         <option value="sorties_évenements">Sortie évènements</option>
                         <option value="autre">Autre</option>
                     </select>
                 </div>
 
-            <!-- modifier les value sur le fichier css -->
-
-            <div>
-                <label for="email">Email :</label><input type="email" id="email" name="email" placeholder="email@mail.com" required>
-            </div>
+    
 
             <textarea name="message" id="message" cols="30" rows="10" placeholder="Message..." required></textarea>
 
-            <button type="submit">Envoyer</button>
+            <button type="submit" id="bouton1">Envoyer</button>
         </fieldset>
 
         <div class="g-recaptcha" data-sitekey="6Ldv4GorAAAAALV4_9nAzEdCga_VgXL2vwSLcS4I"></div>
         <input type="submit" value="Envoyer">
     </form>
         <?php 
-        require 'php/captchat_section.php' ?>
+        // require 'php/captchat_section.php' ?> 
 </main>
 
 

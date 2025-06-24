@@ -15,11 +15,12 @@
 * slider accueil js ok !
 * bootsrap caroussel ok !
 * slider accueil responsive ok !
-* formulaire contact html & css !
+* formulaire contact html & css ok!
+* formulaire contact js ok !
 
 * formulaire contact responsive
-* je ne suis pas un robot
-* formulaire contact js
+* captchat
+
 * gestion des cookies
 * installer Synfony
 * mobile first
