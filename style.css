@@ -200,7 +200,7 @@ legend {
     width: 20%;
 }
 
-#div_nm, #div_fnm, #objet, #email, button {
+#div_nm, #div_fnm, #objet, #email, .g-recaptcha {
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -218,14 +218,23 @@ fieldset #message, label {
     margin-right: auto;
 }
 
-button {
+#button {
+    width: 20%;
     margin-top: 10px;
     background-color: aliceblue;
     color: rgb(34, 33, 33);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 7px;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+/* ------------------------------------------------------------------------------------------ */
+
+/* destination  */
 
 #retour-accueil {
     display: block;         

@@ -63,14 +63,14 @@
 
             <textarea name="message" id="message" cols="30" rows="10" placeholder="Message..." required></textarea>
 
-            <button type="submit" id="bouton1">Envoyer</button>
+            <!-- <button type="submit" id="bouton1">Envoyer</button> -->
         </fieldset>
 
         <div class="g-recaptcha" data-sitekey="6Ldv4GorAAAAALV4_9nAzEdCga_VgXL2vwSLcS4I"></div>
-        <input type="submit" value="Envoyer">
+        <input type="submit" id="button" value="Envoyer">
     </form>
         <?php 
-        // require 'php/captchat_section.php' ?> 
+        require 'php/captchat_section.php' ?> 
 </main>
 
 
