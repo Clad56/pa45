@@ -62,11 +62,12 @@
   }
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1300px) {
   #div_nm input, #div_fnm input, #email, #message  {
     display: flex;
-    justify-content: center;
-    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
     font-size: 2rem;
     border: 3px solid lightskyblue;
     font-weight: 400;
@@ -74,16 +75,24 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
-  #objet {
-    width: 60%;
-    font-size:xx-large;
-    margin-bottom: 50px;
-  }  
+@media screen and (max-width:1200px) {
+  ::placeholder {
+    font-size: x-large;
+  }
 }
 
 @media screen and (max-width: 1200px) {
-  #bouton1 {
+.select-grand {
+  font-size: 18px;       /* augmente la taille du texte visible */
+  padding: 12px 15px;    /* augmente l'espace autour du texte */
+  line-height: 1.2;      /* ajuste un peu la hauteur si besoin */
+  height: auto;          /* utile si d'autres styles le bloquent */
+}
+}
+
+
+@media screen and (max-width: 1200px) {
+  #button, #retour-accueil {
     width: 70%;
     font-size: xx-large;
   }

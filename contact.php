@@ -52,7 +52,7 @@
 
                 <div>
                     <label for="objet">Objet du message:</label>
-                    <select type="text" name="objet" id="objet">
+                    <select type="text" name="objet" id="objet" class="select-grand">
                         <option value="renseignement_rassemblement" selected>Renseignement rassemblement</option>
                         <option value="sorties_évenements">Sortie évènements</option>
                         <option value="autre">Autre</option>
@@ -63,14 +63,14 @@
 
             <textarea name="message" id="message" cols="30" rows="10" placeholder="Message..." required></textarea>
 
-            <!-- <button type="submit" id="bouton1">Envoyer</button> -->
         </fieldset>
 
         <div class="g-recaptcha" data-sitekey="6Ldv4GorAAAAALV4_9nAzEdCga_VgXL2vwSLcS4I"></div>
         <input type="submit" id="button" value="Envoyer">
-    </form>
+    
         <?php 
         require 'php/captchat_section.php' ?> 
+    </form>
 </main>
 
 

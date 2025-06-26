@@ -17,8 +17,8 @@
 * slider accueil responsive ok !
 * formulaire contact html & css ok!
 * formulaire contact js ok !
+* formulaire contact responsive ok !
 
-* formulaire contact responsive
 * captchat
 
 * gestion des cookies

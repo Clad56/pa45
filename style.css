@@ -199,13 +199,26 @@ legend {
     text-align: center;
     width: 20%;
 }
+ legend h2 {
+    font-size: xx-large;
+}
+
+::placeholder {
+    font-size: large;
+}
 
 #div_nm, #div_fnm, #objet, #email, .g-recaptcha {
-    width: 30%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
+}
+
+.select-grand {
+  font-size: 20px;       /* augmente la taille du texte visible */
+  padding: 10px 20px;    /* augmente l'espace autour du texte */
+  line-height: 1.2;      /* ajuste un peu la hauteur si besoin */
 }
 
 fieldset #message, label {
@@ -218,8 +231,13 @@ fieldset #message, label {
     margin-right: auto;
 }
 
+.g-recaptcha {
+    margin-top: 10px;
+}
+
 #button {
-    width: 20%;
+    width: 40%;
+    font-size: large;
     margin-top: 10px;
     background-color: aliceblue;
     color: rgb(34, 33, 33);
