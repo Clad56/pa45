@@ -1,18 +1,42 @@
 /* structure css pour toutes les pages */
 
-body {
-    background-color: white;
-    background : linear-gradient(90deg, rgb(216, 216, 233) 0%, rgb(228, 224, 231) 27%, rgb(207, 220, 252) 100%);
-    
-}
-h1 {
-    color: rgb(4, 45, 82);
-    width: 100%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style:oblique;
-    text-align: center;   
-   }
+/* - centrer h1
+   - responsive design
+   - éléments intéractif js 
 
+   - formulaire contact */
+
+body {
+    background-color: rgb(15, 15, 15);
+    background : linear-gradient(90deg, rgb(31, 31, 32) 0%, rgb(17, 11, 22) 27%, rgb(4, 14, 39) 100%);
+}
+
+/* background linear sauf body & nav*/
+#intro, main, #rasso-section > p, #evenements-section > p, #rollingshoot-section > p, footer {
+    background : linear-gradient(90deg, rgb(70, 70, 104) 0%, rgb(17, 11, 22) 27%, rgb(4, 14, 39) 100%);
+}
+
+
+/* police d'éciture & couleur */
+h1, h2, nav, #presentation, h3, .copyright, footer, p {
+  color: azure;
+  font-family: "BBH Sans Bartle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+
+
+}
+
+h2, #presentation, h3 {
+    background : linear-gradient(90deg, rgb(58, 58, 138) 0%, rgb(17, 11, 22) 27%, rgb(13, 21, 44) 100%);
+    font-size: 2em;
+    text-align: center;
+}
+
+
+/* ------------------------  menu navigation -------------------------------------- */
 
 nav {
     display: flex;
@@ -22,10 +46,10 @@ nav {
     display: inline-block;
     text-align:center;
     font-size: x-large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
     opacity: 0.8;
-    background : linear-gradient(90deg, rgb(129, 128, 131) 0%, rgb(234, 233, 238) 27%, rgb(207, 220, 252) 100%);
+    color: azure;
+    background : linear-gradient(90deg, rgb(58, 58, 138) 0%, rgb(17, 11, 22) 27%, rgb(13, 21, 44) 100%);
 }
 
 ul li {
@@ -33,39 +57,28 @@ ul li {
     margin:0 20px; 
 }
 
+/* -------------------------------------------------------------------------------- */
+
+/* ---------------------------- css sur les liens ----------------------------------*/
 
 a:link { 
  text-decoration:none;
- color: rgb(10, 10, 10);
+ color: rgb(255, 255, 255);
 } 
 
 a:visited {
-    color: rgb(66, 65, 65);
+    color: rgb(253, 254, 253);
 }
+/* ---------------------------------------------------------------------------------- */
 
-
+/* lien de la page facebook */
 .facebook-link {
     position: absolute;
     top: 10px;
     right: 10px;
 }
 
-/* ---------------------------------------------------------------------------------------------- */
-
-
-/* Accueil */
-
-#presentation {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 200;
-    margin-top: 20px;
-    background: rgb(65, 65, 88);
-    color: aliceblue;
-}
-
-section p {
-    margin-top: 10px;
-}
+/* --------------------------------- page d'accueil -------------------------------- */
 
 main {
     width: 90%;
@@ -75,94 +88,54 @@ main {
     display: flex;
     flex-direction: column;
     gap: 2rem; /* espace entre les blocs */
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border: rgb(237, 238, 238) 2px solid;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
-.image {
-  display: flex;
-  justify-content: center;   
-  align-items: center;
-  gap: 20px;                 
-}
-
-
-#intro {
+/* #intro {
     margin-top: 50px;
-    border: rgb(237, 238, 238) 2px solid;
     padding: 10px 0;
+} */
 
-}
 
-h2 {
-    background-color: aliceblue;
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 200;
-}
+/* section a mettre en flexbox */
 
-#container {
+#rasso-section, #rollingshoot-section {
     display: flex;
     flex-direction: row;
-    margin-top: 5%;
-    justify-items: auto;
+    gap: 30px;
 }
 
-h3, .image {
-    text-align: center;
-    margin-left: 5px; 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: aliceblue;
+#evenements-section {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
 }
 
-#container section h3 a:visited { 
- text-decoration:none;
- color: rgb(180, 197, 211);
-} 
-
-#container section h3 a:visited { 
- text-decoration:none;
- color: rgb(211, 210, 210);
-} 
-
-
-/* ------------------------------------------------------------------------------------------------- */
-
-/* ALL */
-
-p, label {
-    font-size:larger;
-    text-align: center;
-    color: antiquewhite;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic;
-    font-weight: 300;
-}
-
-main, section, footer {
-    background: rgb(65, 65, 88);
-}
-
-footer {
-    font-family: Arial, Helvetica, sans-serif,italic;
-    font-weight: 250;
-    width: 95%;
-    border: rgb(237, 238, 238) 3px solid;
+#rasso-section > p, #evenements-section > p, #rollingshoot-section > p {
+    display: flex;
+    align-items: center;       /* centre verticalement le texte */
+    justify-content: center;   /* centre horizontalement le texte */
+    text-align: center;        /* centre le texte sur plusieurs lignes */
     padding: 10px;
-    border-radius: 8px;
 }
+
+/* fin des sections  */
 
 main > p {
-    color: antiquewhite;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    /* padding-top: 15px;
+    padding-bottom: 15px; */
 }
 
+/* -------------------------- pied de page -----------------------------------*/
 
-h2, .mentionsLégales {
+footer {
+    width: 95%;
+    padding: 10px;
+}
+
+.mentionsLégales {
     font-size: medium;
     text-align: center;
     font-style: italic;  
@@ -171,44 +144,32 @@ h2, .mentionsLégales {
 .copyright, footer {
     text-align: center;
     margin: 20px;
-    color: antiquewhite;
-}
-
-/* ---------------------------------------------------------------------------------------------- */
-
-/* caroussel bootsrap */
-
-.size  {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 
-
-
+/* A VOIR PLUS TARD */
 /* ---------------------------------------------------------------------------------------------- */
 
 /*contact*/
 
 form {
-    width: 100%;
+    width: 80%;
+    display: block;
+    margin: auto;
 }
-
 legend {
     text-align: center;
-    width: 20%;
 }
+
  legend h2 {
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 ::placeholder {
-    font-size: large;
+    font-size: medium;
 }
 
 #div_nm, #div_fnm, #objet, #email, .g-recaptcha {
-    width: 40%;
     display: flex;
     flex-direction: column;
     margin-left: auto;
@@ -216,7 +177,7 @@ legend {
 }
 
 .select-grand {
-  font-size: 20px;       /* augmente la taille du texte visible */
+  font-size: 15px;       /* augmente la taille du texte visible */
   padding: 10px 20px;    /* augmente l'espace autour du texte */
   line-height: 1.2;      /* ajuste un peu la hauteur si besoin */
 }
@@ -224,31 +185,45 @@ legend {
 fieldset #message, label {
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 70%;
     display: flex;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
 }
 
-.g-recaptcha {
-    margin-top: 10px;
-}
+
 
 #button {
-    width: 40%;
+    width: 30%;
     font-size: large;
     margin-top: 10px;
     background-color: aliceblue;
     color: rgb(34, 33, 33);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-radius: 7px;
+    border-radius: 2px;
     cursor: pointer;
     display: flex;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
 }
+/* coookie */
+
+#consent-banner {
+    background:#eee; 
+    padding:10px; 
+    position:fixed; 
+    bottom:0; 
+    width:100%; 
+    text-align:center; 
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.2); 
+    z-index:1000;
+}
+#accept-cookies {
+    margin-left:15px; 
+    padding:5px 10px;
+}
+
 
 /* ------------------------------------------------------------------------------------------ */
 

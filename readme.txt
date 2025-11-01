@@ -1,8 +1,6 @@
 ***************************** A METTRE EN PLACE **************************
 
 * DEPOT GIT 
-
-******** FRONT END ************
 * architecture html // ok !
 * semantique html // ok ! 
 * css de base // ok !
@@ -18,20 +16,27 @@
 * formulaire contact html & css ok!
 * formulaire contact js ok !
 * formulaire contact responsive ok !
-
-* captchat
-
-* gestion des cookies
-* installer Synfony
-* mobile first
-
-
-
-******* BACK END ************
+* captchat ok !
 * ajouter header php // ok !
 * ajouter footer php // ok !
-* formualire contact php 
-* je ne suis pas un robot 
+* rassembler header part php 
+
+//----------------------------------------------------------------------
+
+// A faire avant Samedi soir 
+
+* slider css
+* action js au click sur la photo
+* travailler sur le référencement 
+* responsive design 
+* dépot GIT
+* mise en ligne 
+
+//----------------------------------------------------------------------
+
+* gestion des cookies 
+* formualire contact js & php 
+
 
 
 

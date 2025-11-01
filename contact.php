@@ -3,32 +3,39 @@
     <head>
         <meta charset="utf-8"/>
         <title>Passion Auto 45</title>
-        <meta name="meta description" content="site Officiel Passion Auto 45">
+        <meta name="description" content="site Officiel Passion Auto 45">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="facebookurl" content="https://www.facebook.com/groups/147467578931462">
         <meta name="keyword" content="Automobile, Orléans, Loiret, Rassemblement">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="responsive_design.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+        
         <script src="script.js" defer></script> 
         <script src="script-destination.js" defer></script> 
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" 
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> -->
     </head>
     <body>
+        <div id="consent-banner">
+            Ce site utilise le stockage local pour améliorer votre expérience.
+            <button id="accept-cookies">Accepter</button>
+        </div>
 
         <?php 
         require ("php/html_part.php"); 
         ?>
         
-        <h1>Contact</h1>
+        <h1>Formulaire de contact</h1>
 
         <main>
             <p> Si après avoir visité notre site, vous souhaitez prendre contact pour des informations 
                 sur les rassemblements, les événements ou les rolling shots, le formulaire de contact est 
-                à votre disposition. A bientôt</br> La famille PA45
+                à votre disposition. A bientôt</br> La famille PA45</p>
 
             <form id="formulaire" action="/destination.php" method="post">
                 <fieldset id="infos">
@@ -61,7 +68,7 @@
 
     
 
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Message..." required></textarea>
+            <textarea name="message" id="message" cols="20" rows="10" placeholder="Message..." required></textarea>
 
         </fieldset>
 
@@ -80,22 +87,23 @@
         <!-- ATTENTION !!!!!! TRAVAILLER LE FORMULAIRE EN PHP  -->
 <?php
 // Vérifie si les champs ont été soumis
-// if (isset($_POST['name']) && isset($_POST['email']) && isset ($_POST ['message'])) 
-// { 
-//   $name = $_POST['name'];
-//   $email = $_POST['email'];
-//   $message = $_POST ['message'];
-//        // exemple de validation
-//   if (empty($name) && empty($email) && empty ($message))
-// 	{
-//       echo "Veuillez entrer votre nom, email et message";
-// 	} 
-// 	else 
-// 	{
-// 		echo "Votre message a  bien été envoyé. Nous revenons vers vous vers très rapidement";	   
-// 	}
-// }
-// ?> 
+if (isset($_POST['nom']) && isset($_POST['email']) && isset($_POST['message']))
+
+{ 
+  $name = $_POST['nom'];
+  $email = $_POST['email'];
+  $message = $_POST ['message'];
+       // exemple de validation
+  if (empty($name) || empty($email) || empty ($message))
+	{
+      echo "Veuillez entrer votre nom, email et message";
+	} 
+	else 
+	{
+		echo "Votre message a  bien été envoyé. Nous revenons vers vous très rapidement";	   
+	}
+}
+?> 
 
 <?php 
 include 'php/footer_section.php' ?>

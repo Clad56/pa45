@@ -1,33 +1,14 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8"/>
-        <title>Passion Auto 45</title>
-        <meta name="meta description" content="site Officiel Passion Auto 45">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="facebookurl" content="https://www.facebook.com/groups/147467578931462">
-        <meta name="keyword" content="Automobile, Orléans, Loiret, Rassemblement">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="responsive_design.css">
-        <link rel="stylesheet" href="bootstrap.min.css">
-        <link rel="stylesheet" href="slider.css">
-        <script src="slider.js"></script>
-        
-        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" 
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> -->
-    </head>
+
     <body>
-        
-        <?php 
-            require ("php/html_part.php"); 
-        ?>
+         <?php require ("php/html_part.php"); ?>
         
         <main>
-            <div id="class-container">
-                <div id="slider"><img src="davyPmedia/rasso1.jpg" alt="image rasso" id="slide"></div>
-                <div id="precedent" onclick="ChangeSlide(-1)">&lt;</div>
-                <div id="suivant" onclick="ChangeSlide(1)">&gt;</div>
+            <div id= "class-container-galeries">
+                <img id="slide-accueil" src="davyPmedia/rasso1.jpg" width="800">
+                <button onclick="ChangeSlide('accueil', -1)" id="precedent">←</button>
+                <button onclick="ChangeSlide('accueil', 1)" id="suivant">→</button>
             </div>
             
              <h2 id="presentation">Qui sommes nous ?</h2> 
@@ -42,47 +23,52 @@
                      Un groupe Facebook de ventes dans le domaine automobile est disponible ( ventes de véhicules entre particulier, 
                      équipement , service).
                      Alors si vous souhaitez nous contacter,</br> 
-                     <a href="contact.php">cliquez ici</a></p>
+                     <a href="contact-save.php">cliquez ici</a></p>
                 </div>
                 
 
-            <div id="container">
-                <section>
                 <h3><a href="rasso.php">Rassemblements</h3>
-                <div class="image">
-                        <img src="davyPmedia/rasso/rassoSubaru.jpg" 
-                        width="300vw" alt="Subaru"></a>
+                <section id="rasso-section">
+                <div class= "rasso">
+                        <img src="davyPmedia/rasso/rasso4.jpg" 
+                        width="450vw" alt="Subaru"></a>
                 </div>
                         <p>Au fil de l’année, différents rassemblements seront effectués en région Centre Val de Loire. 
                             Sans thème, l’entrée sur les rassemblements sera gratuite pour les visiteurs et 
-                            exposants.<br>
+                            exposants. Le lieux idéal pour partager et échanger autour de notre passion commune. 
+                            Des encadrants et reponsables seront présents. 
+                            Néanmoins le respect est de mise ! Nous comptons sur la reponsabilité de chacun d'entre vous 
+                            que cela soit visiteur ou exposant pour contribuer à faire de ses rassemblemments des lieux surs,
+                            sécuritaires et respecteux afin de profiter pleinement de ces moments de partage.
                         </p>
-                    
                 </section>
 
-                <section>
-                    <h3><a href="evenements.php">Événements</h3>
+                <h3><a href="evenements.php">Événements</h3>
+                <section id="evenements-section">
                     <div class="image">
-                        <img src="davyPmedia/driftShoot/driftStandBmw.jpg" 
-                        width="300vw" alt="Stand"></a>
+                        <img src="davyPmedia/event/event8.jpg" 
+                        width="450vw" alt="Stand"></a>
                     </div>
-                        <p>Au fil de l’année quelques évènements seront effectués en groupe comme des sorties 
-                            circuit, découvertes mécanique ou bien même convois vers d’autres événements. 
-                        </p>
+                    <p>A pa45, vous pourrez égalements participer à des évènements. Que ce soit en France et même
+                        dans plusieurs pays européens afin rouler sur circuits, admirer des compétitions de Drift, 
+                        découvrir des rassemblements hors frontière. Parcourir des kilomètres en convois et continuer à partager 
+                        notre passion de l'automobile 
+
+                    </p>
                 </section>
 
-                <section>
-                    <h3><a href="rollingshoot.php">Rolling Shot</h3>
+                <h3><a href="rollingshoot.php">Rolling Shot</h3>
+                <section id="rollingshoot-section">
                     <div class="image">
-                        <img src="davyPmedia/rollingShoot/rollingShootCocc.jpg"
-                        width="300vw" alt="2 coccinelles"></a>
+                        <img src="davyPmedia/rollingShoot/shoot8.jpg"
+                        width="450vw" alt="2 coccinelles"></a>
                     </div>   
                         <p> Le rolling shot est une balade à étape accompagnée d’un shooting 
                             photo/vidéo optionnel de votre véhicule à l’arrière du peloton. 
                             Certaines balades seront effectuées en partenariat avec d’autres groupes.
                         </p> 
                 </section>
-            </div>
+
 
          </main>
             <?php 

@@ -1,60 +1,59 @@
 /* *header_section* */
 
 /* Accueil / Index.php */
+
 @media  screen and (max-width: 900px) {
-  ul {
+  body {
+   width: 100%;
+  }
+}
+
+
+@media  screen and (max-width: 900px) {
+  ul, #rasso-section, #evenements-section, #rollingshoot-section {
     display: flex;
     flex-direction: column;
   }
 }
 
 @media  screen and (max-width: 1200px) {
-  h1, h2, h3, p {
+  h1, h2, h3 {
+    font-size: xx-large;
+  }
+}
+
+@media  screen and (max-width: 1200px) {
+  p, li > a {
     font-size: x-large;
-    font-style: oblique;
+  
   }
 }
 
 @media screen and (max-width: 1200px) {
-  #container, .image{
-    display: flex;
-    flex-direction: column;
+  #slide-accueil, #rasso-section img, #evenements-section img, #rollingshoot-section img,
+  #class-container-galeries img {
+      width: 90%;
+      margin: auto;
   }
 }
 
-@media screen and (max-width: 1200px){
-  #container section img {
-     width: 100%;         
-     height: auto;          
-     max-width: 900px;     
-     display: block;       
-     margin: 0 auto;       
-     object-fit: cover;
+/* -------------------------------------slider accueil */
+
+/* ---------- footer -------------- */
+
+@media screen and (max-width :1200px) {
+  footer {
+    width: 90%;
   }
 }
 
-/* slider accueil */
-
-/* -------------------------------------------------------------------------------------- */
-
-@media screen and (max-width: 1200px) {
-  #slider img {
-    width: 100%;
-  }
-}
-
-/* ------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------ */
 
 
+/* ---------------- galerie photo responsive ----------------------  */
 
 /* *Formulaire contact / contact.php* */
 
-
-@media screen and (max-width :1200px) {
-  body {
-    width: 100%;
-  }
-}
 
 @media screen and (max-width: 1200px) {
   fieldset #info, fieldset #messages{
